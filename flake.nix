@@ -14,6 +14,7 @@
                 buildInputs = [
                     cargo
                     rustc
+                    clippy
                 ] ++ lib.optional isDarwin [
                         darwin.apple_sdk.frameworks.CoreServices
                         libiconv
